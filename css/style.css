@@ -1,0 +1,93 @@
+* {
+
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+}
+
+.head {
+    
+    background-color: rgb(122, 122, 122);
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.pagmain {
+    padding-top: 15px;
+    display: flex;
+    margin: 10px auto;
+
+}
+
+
+
+.usuario {
+    height: 220px;
+    width: 200px;
+    background-color: rgb(209, 209, 209);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 57px 30px;
+    display: grid;
+    justify-content: center;
+    align-content: space-around;
+    text-align: center;
+}
+
+.perfil {
+    border-radius: 50%;
+    margin: 10px;
+    background-color: black;
+    height: 140px;
+    width: 140px;
+}
+
+.seccionbox {
+    margin-bottom: 20px ;
+}
+
+.seccion {
+    margin-right: 20px;
+    margin-bottom: 20px ;
+    padding-top: 15px;
+    background-color: rgb(209, 209, 209);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    
+
+}
+
+.izquierda {
+    flex: 5;
+
+}
+
+.derecha {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.derecha button {
+    background-color: yellow;
+    padding: 7px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.derecha button:hover {
+    background-color: #65e2f3;
+    cursor: pointer;
+}
+
+.derecha p {
+
+    padding: 5px;
+
+}
